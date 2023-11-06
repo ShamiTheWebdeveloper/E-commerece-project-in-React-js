@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     padding: 16px;
-    box-shadow: 0 1px 3px -2px black;
+    box-shadow: 0 1px 20px -2px black;
 }
 .nav-logo{
     display: flex;
@@ -36,6 +36,7 @@
     height: 3px;
     border-radius: 10px;
     background: #ff4141;
+    margin-bottom: -9px;
 }
 .nav-login-cart{
      display: flex;
@@ -69,4 +70,8 @@
     font-size: 14px;
     background: red;
     color: white;
+}
+li a{
+    text-decoration: none;
+    color: black;
 }
